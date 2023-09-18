@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập HTML - CSS - JS</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #cccccc;
+            padding: 30px;
+            text-align: left;
+            font-size: 35px;
+            color: black;
+        }
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: khaki;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both
+        }
+        footer {
+            background-color: #cccccc;
+            padding: 10px;
+            text-align: center;
+            color: black;
+
+        }
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PROCESS LAYOUT EXAMPLE</h1>
+</header>
+
+<section>
+    <nav>
+        <h5> Main Menu</h5>
+        <ul>
+            <li>Link one</li>
+            <li>Link two</li>
+            <li>Link three</li>
+            <li>Link four</li>
+        </ul>
+    </nav>
+
+    <article>
+        <p>This is an example layout using the tables</p>
+    </article>
+</section>
+
+<footer> www.Example of layout using tables.com</footer>
+</body>
+</html>
