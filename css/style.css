@@ -1,0 +1,56 @@
+body {
+    background: white;
+
+    #wrapper {
+        width: 960px;
+        margin: auto; /*căng giữa*/
+        border: 2px solid black;
+    }
+
+    #header {
+        text-align: center;
+        border: 2px solid black;
+        font-size: 30px;
+    }
+
+    #navigation {
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        border: 2px solid black;
+    }
+
+    #main-content {
+        display: flex; /*hiển thị theo hàng hang*/
+        height: 200px;
+    }
+
+    #index {
+        flex-basis: 30%;
+
+        font-size: 30px;
+        text-align: center;
+        line-height: 200px;
+        border: 2px solid black;
+
+
+    }
+
+    #content {
+        flex-basis: 70%;
+        font-size: 30px;
+        text-align: center;
+        line-height: 200px;
+        border: 2px solid black;
+
+    }
+
+    #footer {
+        padding: 30px;
+        border: 2px solid black;
+        font-size: 30px;;
+        text-align: center;
+
+
+    }
+}
