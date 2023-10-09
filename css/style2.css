@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: sans-serif, Tahoma, Arial;
+    overflow: auto;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+
+}
+.form {
+
+
+}
+.sign {
+   margin-top: 200px;
+}

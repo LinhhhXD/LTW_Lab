@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 12px;
+    height: 330px;
+    width: 342px;
+    border: 8px solid rgb(230, 230, 230);
+
+
+}
+
+input {
+
+    border: none;
+    background: #f7f7f7;
+    font-size: 7px;
+    padding-left: 8px;
+
+
+}
+
+select {
+    font-size: 9px;
+    border: none;
+    background: #f7f7f7;
+    padding-left: 8px;
+    width: 100%;
+
+}
+
+span {
+    font-size: 7px;
+    padding-left: 8px;
+
+
+}
+
+
+h2 {
+    margin-top: 28px;
+    margin-bottom: 27px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+div.form {
+    margin: 10px;
+
+}
+
+div.fname_form {
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    height: 32px;
+    background: #f7f7f7;
+
+}
+
+
+div.email_form {
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    height: 32px;
+    width: 154px;
+    margin-top: 8px;
+    background: #f7f7f7;
+    float: left;
+
+}
+
+div.phone_form {
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    height: 32px;
+    width: 154px;
+    float: right;
+    margin-top: 8px;
+    background: #f7f7f7;
+
+}
+
+div.need_form {
+    overflow: auto;
+    margin-top: 50px;
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    background: #f7f7f7;
+    height: 32px;
+
+}
+
+div.message_form {
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    margin-top: 8px;
+
+}
+
+
+textarea {
+
+    border: none;
+
+}
+
+#message {
+
+    font-size: 8px;
+    padding-left: 8px;
+    width: 307px;
+    height: 30px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input {
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    background: black;
+    border-radius: 10px;
+    width: 100%;
+
+}
